@@ -16,9 +16,9 @@ I follow this article. See it.<BR>
 https://github.com/nuest/docker-mro/issues/4 <BR>
 <BR>
 2. Execution Demo.R<BR>
-benchmark executed shown bellow(MRO with MKL).
-begin with this:
-source("demo.R")
+benchmark executed shown bellow(MRO with MKL).<BR>
+begin with this:<BR>
+source("demo.R")<BR>
 <pre>
    R Benchmark 2.5
    ===============
