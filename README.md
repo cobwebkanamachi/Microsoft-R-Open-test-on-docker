@@ -18,7 +18,7 @@ https://github.com/nuest/docker-mro/issues/4 <BR>
 2. Execution Demo.R<BR>
 benchmark executed shown bellow(MRO with MKL).
 <pre>
-> source("demo.R")
+source("demo.R")
    R Benchmark 2.5
    ===============
 Number of times each test is run__________________________:  3
