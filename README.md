@@ -2,7 +2,7 @@
 I saw Microsoft R Open, so testify it with docker.
 <BR>
 R runs with messages shown bellow after installation.
-<PRE>
+<pre>
 Microsoft R Open 3.2.3
 Default CRAN mirror snapshot taken on 2016-01-01
 The enhanced R distribution from Microsoft
@@ -10,14 +10,14 @@ Visit http://go.microsoft.com/fwlink/?LinkID=722555 for information
 about additional features.
 
 Multithreaded BLAS/LAPACK libraries detected. Using 8 cores for math algorithms.
-</PRE>
+</pre>
 1. Installation procedures<BR>
 I follow this article. See it.<BR>
 https://github.com/nuest/docker-mro/issues/4 <BR>
 <BR>
 2. Execution Demo.R<BR>
 benchmark executed shown bellow(MRO with MKL).
-<PRE>
+<pre>
 > source("demo.R")
    R Benchmark 2.5
    ===============
@@ -57,7 +57,7 @@ Total time for all 15 tests_________________________ (sec):  8.00733333333333
 Overall mean (sum of I, II and III trimmed means/3)_ (sec):  0.468191249034673 
 --- End of test ---
 Total test time: 49.173 seconds
-</PRE>
+</pre>
 <BR>
 3. Execution Demo.R on Native R<BR>
 benchmark executed shown bellow(osx native R without MKL).
