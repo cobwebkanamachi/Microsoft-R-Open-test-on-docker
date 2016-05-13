@@ -56,7 +56,7 @@ Escoufier's method on a 45x45 matrix (mixed)________ (sec):  0.817
 
 Total time for all 15 tests_________________________ (sec):  8.00733333333333 
 Overall mean (sum of I, II and III trimmed means/3)_ (sec):  0.468191249034673 
-                      --- End of test ---
+--- End of test ---
 Total test time: 49.173 seconds
 </pre>
 <BR>
@@ -100,5 +100,5 @@ Escoufier's method on a 45x45 matrix (mixed)________ (sec):  0.405000000000001
 
 Total time for all 15 tests_________________________ (sec):  34.352 
 Overall mean (sum of I, II and III trimmed means/3)_ (sec):  1.09463639338888 
-                      --- End of test ---
+--- End of test ---
 </pre>
