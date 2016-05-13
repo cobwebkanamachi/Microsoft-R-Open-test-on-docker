@@ -10,14 +10,14 @@ Visit http://go.microsoft.com/fwlink/?LinkID=722555 for information
 about additional features.
 
 Multithreaded BLAS/LAPACK libraries detected. Using 8 cores for math algorithms.
-</pre>
+</PRE>
 1. Installation procedures<BR>
 I follow this article. See it.<BR>
 https://github.com/nuest/docker-mro/issues/4 <BR>
 <BR>
 2. Execution Demo.R<BR>
 benchmark executed shown bellow(MRO with MKL).
-<pre>
+<PRE>
 > source("demo.R")
    R Benchmark 2.5
    ===============
@@ -57,7 +57,7 @@ Total time for all 15 tests_________________________ (sec):  8.00733333333333
 Overall mean (sum of I, II and III trimmed means/3)_ (sec):  0.468191249034673 
 --- End of test ---
 Total test time: 49.173 seconds
-</pre>
+</PRE>
 <BR>
 3. Execution Demo.R on Native R<BR>
 benchmark executed shown bellow(osx native R without MKL).
