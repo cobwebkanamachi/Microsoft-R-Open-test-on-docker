@@ -11,11 +11,11 @@ about additional features.
 
 Multithreaded BLAS/LAPACK libraries detected. Using 8 cores for math algorithms.
 </pre>
-1. Installation procedures<BR>
+1) Installation procedures<BR>
 I follow this article. See it.<BR>
 https://github.com/nuest/docker-mro/issues/4 <BR>
 <BR>
-2. Execution Demo.R<BR>
+2) Execution Demo.R<BR>
 benchmark executed shown bellow(MRO with MKL).<BR>
 begin with this:<BR>
 source("demo.R")<BR>
