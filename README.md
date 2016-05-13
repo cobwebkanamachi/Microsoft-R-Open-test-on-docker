@@ -19,58 +19,6 @@ https://github.com/nuest/docker-mro/issues/4 <BR>
 benchmark executed shown bellow(MRO with MKL).
 <pre>
 > source("demo.R")
-R version
-               _                           
-platform       x86_64-pc-linux-gnu         
-arch           x86_64                      
-os             linux-gnu                   
-system         x86_64, linux-gnu           
-status                                     
-major          3                           
-minor          2.3                         
-year           2015                        
-month          12                          
-day            10                          
-svn rev        69752                       
-language       R                           
-version.string R version 3.2.3 (2015-12-10)
-nickname       Wooden Christmas-Tree       
-=========
-Revo version
-        _  
-major   3  
-minor   2.3
-BuildID 1  
-=========
-R version 3.2.3 (2015-12-10)
-Platform: x86_64-pc-linux-gnu (64-bit)
-Running under: Ubuntu 14.04.4 LTS
-
-locale:
- [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
- [3] LC_TIME=en_US.UTF-8        LC_COLLATE=en_US.UTF-8    
- [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=en_US.UTF-8   
- [7] LC_PAPER=en_US.UTF-8       LC_NAME=C                 
- [9] LC_ADDRESS=C               LC_TELEPHONE=C            
-[11] LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       
-
-attached base packages:
-[1] stats     graphics  grDevices utils     datasets  methods   base     
-
-other attached packages:
-[1] RevoUtilsMath_3.2.3
-The package RevoUtilsMath is already attached.
-=========
-$repos
-                                                      CRAN 
-"https://mran.revolutionanalytics.com/snapshot/2016-01-01" 
-
-A MRAN snapshot is configured as CRAN repository.
-=========
-Run Simon Urbanek's benchmark v2.5:Loading required package: Matrix
-Loading required package: SuppDists
-
-
    R Benchmark 2.5
    ===============
 Number of times each test is run__________________________:  3
@@ -111,16 +59,6 @@ Overall mean (sum of I, II and III trimmed means/3)_ (sec):  0.468191249034673
                       --- End of test ---
 
 Total test time: 49.173 seconds
-Try the same benchmark on your host machine!
-============
-Warning messages:
-1: In grepl("\n", lines, fixed = TRUE) :
-  input string 26 is invalid in this locale
-2: In library(package, lib.loc = lib.loc, character.only = TRUE, logical.return = TRUE,  :
-  there is no package called ‘SuppDists’
-3: In remove("a", "b") : object 'a' not found
-4: In remove("a", "b") : object 'b' not found
-> 
 </pre>
 <BR>
 3. Execution Demo.R on Native R<BR>
@@ -164,17 +102,4 @@ Escoufier's method on a 45x45 matrix (mixed)________ (sec):  0.405000000000001
 Total time for all 15 tests_________________________ (sec):  34.352 
 Overall mean (sum of I, II and III trimmed means/3)_ (sec):  1.09463639338888 
                       --- End of test ---
-
- 警告メッセージ: 
-1: In grepl("\n", lines, fixed = TRUE) :
-   入力文字列 26 はこのロケールでは不適切です 
-2: In library(package, lib.loc = lib.loc, character.only = TRUE, logical.return = TRUE,  :
-   ‘SuppDists’ という名前のパッケージはありません 
-> cat("Total test time:", totalTestTime[[3]], "seconds\n")
-Total test time: 168.873 seconds
-> cat("Try the same benchmark on your host machine!\n")
-Try the same benchmark on your host machine!
-> cat("============\n")
-============
-> 
 </pre>
