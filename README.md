@@ -53,7 +53,6 @@ Escoufier's method on a 45x45 matrix (mixed)________ (sec):  0.817
                       --------------------------------------------
                 Trimmed geom. mean (2 extremes eliminated):  0.47500289711991 
 
-
 Total time for all 15 tests_________________________ (sec):  8.00733333333333 
 Overall mean (sum of I, II and III trimmed means/3)_ (sec):  0.468191249034673 
 --- End of test ---
